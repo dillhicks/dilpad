@@ -27,3 +27,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+*build.txt
+
+case/*
+plate/*
