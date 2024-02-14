@@ -24,22 +24,22 @@ The following components are needed to build the dilpad. Costs have been added f
 
 ### Mandatory Components
 
-| Component      | Quantity | Approx. Cost for 1 dilpad ($) |
-| ----------- | ----------- |-----|
-| Dilpad PCB      | 1       | 2.5 |
-| MX-style mechanical switches   | 16 | 4 |
-| Kailh CPG151101S11 hotswap sockets   | 16 | 3 |
-| MX-style keycaps   | 16 | 2.5 (or use those leftover with your keycap set!) |
-| 1N4148 diodes (through-hole)  | 17 | 0.5 |
-| Arduino Pro Micro or a pin-compatible ATmega32u4-based MCU | 1 | 3.5 |
+| Component                                                  | Quantity | Approx. Cost for 1 dilpad ($)                     |
+| ---------------------------------------------------------- | -------- | ------------------------------------------------- |
+| Dilpad PCB                                                 | 1        | 2.5                                               |
+| MX-style mechanical switches                               | 16       | 4                                                 |
+| Kailh CPG151101S11 hotswap sockets                         | 16       | 3                                                 |
+| MX-style keycaps                                           | 16       | 2.5 (or use those leftover with your keycap set!) |
+| 1N4148 diodes (through-hole)                               | 17       | 0.5                                               |
+| Arduino Pro Micro or a pin-compatible ATmega32u4-based MCU | 1        | 3.5                                               |
 
 ### Optional Components
 
-| Component      | Quantity | Approx. Cost for 1 dilpad ($) |
-| ----------- | ----------- |-----|
-| EC11 rotary encoder with pushbutton   | 1 | 1 |
-| SSD1306 OLED | 1 | 2 |
-| 6mm push button  | 1 | .25 |
+| Component                           | Quantity | Approx. Cost for 1 dilpad ($) |
+| ----------------------------------- | -------- | ----------------------------- |
+| EC11 rotary encoder with pushbutton | 1        | 1                             |
+| SSD1306 OLED                        | 1        | 2                             |
+| 6mm push button                     | 1        | .25                           |
 
 In total, it should cost less than 25 dollars, even cheaper if you decide to forgo the OLED and rotary encoder!
 
@@ -72,7 +72,15 @@ Flash Your Firmware:
 
 ## Case and Plate
 
-Below are links for the plate/shroud and the two case variants
+[**Printables**](https://www.printables.com/model/764488-dilpad-case-and-plate)
 
 ![Cover text of dilpad](images/no_keycaps.jpeg)
 
+
+## TODO
+
+- [ ] Add Firmware to QMK and VIA for official support
+
+- [ ] Make version of shroud without rotary encoder and oled
+
+- [ ] Add additional tools to OLED
